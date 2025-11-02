@@ -1,12 +1,80 @@
+
+:root{
+    --main-color: #191970;
+    --text-color: white;
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+/** {
+    border: 2px solid blue;
+}*/
+body{
+font-family: 'Roboto', sans-serif;
+padding-left: 80px;
+padding-right: 80px;
+background-color: rgb(217, 224, 228);
+
+}
+header {
+    text-align: center;
+    font-size: 20px;
+}
+h1 {
+    background-color: rgb(102, 149, 181);
+}  
+nav ul {
+    margin: 40px;
+    background-color: rgb(130, 139, 145);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items:stretch;
+    height: 60px;
+
+}
+nav li {
+    list-style: none;
+    flex: 1;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--clr-text-secondary);
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+section {
+    margin: 40px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
 footer {
     margin: 1rem;
     border: 1px solid rgb (0 0 0 / 10%);
     padding: 1rem;
-    background-color: #eee;
+    background-color: rgb(102, 149, 181);
     text-align: center;
 }
