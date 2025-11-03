@@ -13,8 +13,6 @@
 }*/
 body{
 font-family: 'Roboto', sans-serif;
-padding-left: 80px;
-padding-right: 80px;
 background-color: rgb(217, 224, 228);
 
 }
@@ -23,6 +21,8 @@ header {
     font-size: 20px;
 }
 h1 {
+    padding-top: 20px;
+    height: 80px;
     background-color: rgb(102, 149, 181);
 }  
 nav ul {
@@ -56,10 +56,21 @@ nav a {
     box-sizing: border-box;
     transition: all 0.2s ease;
 }
+nav a:hover {
+    background-color: rgb(153, 117, 143)   
+}
+section a:hover {
+    color: rgb(181, 102, 160);
+}
 section {
     margin: 40px;
 }
-
+section ul {
+    margin-top: 20px;
+}
+img {
+    margin-top: 40px;
+}
 
 .grid {
     display: grid;
@@ -74,7 +85,7 @@ section {
 footer {
     margin: 1rem;
     border: 1px solid rgb (0 0 0 / 10%);
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: rgb(102, 149, 181);
     text-align: center;
 }
