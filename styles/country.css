@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Rock+Salt&display=swap');
+:root{
+    --main-color: #191970;
+    --text-color: white;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/** {
+    border: 2px solid blue;
+}*/
+html, body {
+font-family: 'Roboto', sans-serif;
+background-color: rgb(217, 224, 228);
+
+}
+header, footer {
+    color: rgb(24, 22, 22);
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgb(102, 149, 181);
+}
+h1 {
+    font-size: 1.5rem;
+    background-color: rgb(102, 149, 181);
+} 
+aside {
+    background-color: green;
+    padding: .5rem;
+} 
+img {
+    width: 100%;
+    height: auto;
+}
+h2 {
+    padding: 1rem;
+    text-align: center;
+}
+.card {
+    background-color: white;
+}
+.col-2 {
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+.label, .cls-1 {
+    font-weight: bold;
+    font-size: .85rem;
+    text-align: right;
+}
+.value, .val {
+    font-size: .9rem;
+    text-align: left;
+}
+.col-3 {
+    display: grid;
+    grid-gap: .5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.info, .weather {
+    text-align: center;
+}
+.icon {
+    text-align: center;
+    padding: 20px;
+}
+.weather svg {
+    width: 100%;
+    height: auto;
+}
+.cls-1 {
+    fill: #231815;
+}
+.cls-2 {
+    fill: #d8bf98;
+}
+.cls-3 {
+    fill: #f8b62d;
+}
+

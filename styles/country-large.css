@@ -1,0 +1,66 @@
+@media (min-width: 610px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        background-color: greenyellow;
+    }
+    main {
+        position: relative;
+    }
+    .card {
+        border: 1px solid rgb(0,0,0,0.3);
+        box-shadow: 0 0 2rem #000;
+        opacity: 0.8;
+    }
+    .card h2 {
+        margin: .5rem -.5rem .5rem -.5rem;
+        background-color: #112d16;
+        color: white;
+        width: 90%;
+        text-align: left;  
+    }
+    .info {
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+    }
+    /*.weather {
+        position: absolute;
+        bottom: 2rem;
+        right: 1rem;
+    }
+    .weather h2::after {
+        content: "💥";
+        position: absolute;
+        right: 3rem;
+        top: 1.25rem
+    }
+    #weather-icon {
+        display: none;
+    }*/
+    .card-info,
+    .card-weather {
+        position: absolute;
+        padding: 0 0 20px 0;
+        background-color: rgba(182, 201, 223, 0.85);
+    }
+
+    .card-info {
+        top: 5%;
+        left: 2%;
+        width: auto;
+        height: auto;
+    }
+
+    .card-weather {
+        bottom: 5%;
+        right: 2%;
+        width: auto;
+        height: auto;
+    }
+    footer {
+        padding: 50px;
+    }
+
+}
