@@ -30,6 +30,17 @@
         font-size: 22px;
         padding: 35px;
     }
+    .hero picture {
+    width: 100%;
+    margin-bottom: 40px;
+    }
+    main img {
+    width: 47%;
+    text-align: center;
+    border: 10px solid #d9c2a3;
+    margin-left: 10px;
+}  
+      
      footer p {
         font-size: 22px;
     }
