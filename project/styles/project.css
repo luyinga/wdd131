@@ -133,6 +133,10 @@ main p {
     text-align: center;
     margin-bottom: 60px;
 }
+main .container {
+    margin-top: 60px;
+    text-align: center;
+}
 main {
     margin: 10px;
     padding: 10px;

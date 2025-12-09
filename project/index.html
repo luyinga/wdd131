@@ -11,10 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/project-large.css">
-    <!--<link rel="stylesheet" href="styles/form.css">-->
+    <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/project.js" defer></script>
-    <!--<script src="scripts/form.js" defer></script>-->
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <header>
@@ -32,15 +32,15 @@
     </header>
         <div class="hero">
             <picture>
-                 <source srcset="images/image5-large.webp" media="(min-width: 1000px)">
-                 <source srcset="images/image5-medium.webp" media="(min-width: 500px)">
-                 <img src="images/image5-small.webp" alt="Peolple enjoying" width="500" height="250">
+                 <source srcset="images/image5-large.webp" media="(min-width: 1000px)" >
+                 <source srcset="images/image5-medium.webp" media="(min-width: 500px)" >
+                 <img src="images/image5-small.webp" alt="Peolple enjoying" loading="lazy" width="500" height="250">
             </picture>
         </div>
     <main>
         <div class="one">    
-          <img class="image2" src="images/image2-small.webp" alt="Homeless" >
-          <img class="image7" src="images/image7-small.webp" alt="image for homepage">
+          <img class="image2" src="images/image2-small.webp" alt="Homeless" loading="lazy">
+          <img class="image7" src="images/image7-small.webp" alt="image for homepage" loading="lazy">
         </div>
         <h1>Homeless</h1>
         <p>
@@ -60,7 +60,21 @@
             to buy something of their choice or even just treating them to a meal. These are just few of many items that we could donate
             to help the shelters. 
         </p>
-        </div>
+        <div class="container">
+        <h1>Support Our Cause</h1>
+        <form id="donationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+
+            <button type="submit" class="donate-button">Donate</button>
+        </form>
+        </div>   
     </main>
     
     <footer>
